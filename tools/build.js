@@ -6,7 +6,7 @@ const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 const SITE = "https://lynx3d.app";
 const TEAM = "https://whitelynx.team";
-const MAIL = "hello@whitelynx.team";
+const MAIL = "info@whitelynx.team";
 const YEAR = 2026;
 /** Ссылки на APK — когда выйдет первая версия; пока кнопки «Скоро». */
 const APK = null;
