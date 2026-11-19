@@ -26,7 +26,8 @@ const T = {
       ["Своя карта глубины:", "загрузите карту из ComfyUI или A1111 — большие модели на компьютере считают точнее."],
       ["VR-режим", "для очков типа Cardboard: ленты взглядом, 3D с настраиваемой силой объёма, панорамы 360°, видео, слайдшоу."],
       ["Civitai:", "ленты картинок и видео, промпты и параметры генерации, поиск моделей и авторов, вход через Civitai по желанию."],
-      ["Wikimedia Commons:", "избранные и качественные фото, панорамы 360° — со свободными лицензиями, с автором и лицензией у каждого фото."],
+      ["Wikimedia Commons:", "избранные, фото дня, панорамы 360°, анаглифы и стереокарточки, природа и космос, поиск и категории — со свободными лицензиями, с автором и лицензией у каждого фото."],
+      ["Свои фото:", "галерея «Телефон» — ваши фото и видео в 3D и VR. Всё считается на телефоне, файлы никуда не уходят."],
       ["Сохранение:", "стереопара для любых VR-очков и карта глубины — в галерею телефона."],
       ["Без рекламы, аналитики и трекеров.", ""],
     ],
@@ -49,6 +50,7 @@ const T = {
     prLead: "Без рекламы, аналитики и трекеров. Для просмотра аккаунт не нужен.",
     pr: [
       ["Только на телефоне", "<p>Настройки, кэш картинок и карт глубины, свои карты глубины, токены входа в Civitai (зашифрованы ключом в Android Keystore). Карты глубины считаются на телефоне — картинки никуда не отправляются. Данные приложения не попадают в резервные копии Android.</p>"],
+      ["Фото и видео с телефона", "<p>Галерея «Телефон» читает фото и видео из медиатеки Android только с вашего разрешения; на Android 14 и новее можно разрешить лишь выбранные фото. Файлы не копируются и никуда не загружаются: показ, карты глубины и VR работают прямо на устройстве. Открыть файл в другом приложении или отправить его можно только вашим нажатием. Разрешение отзывается в настройках Android.</p>"],
       ["Civitai", "<p>Картинки и данные о них загружаются напрямую с civitai.com. Вход через Civitai — на странице самого Civitai, пароль через приложение не проходит. После входа реакции, коллекции и подписки читаются и меняются в вашем аккаунте Civitai по <a href=\"https://civitai.com/content/privacy\">его правилам конфиденциальности</a>.</p>"],
       ["Wikimedia Commons", "<p>Фото и сведения о них (автор, лицензия) загружаются напрямую с commons.wikimedia.org и upload.wikimedia.org. Wikimedia видит ваш IP-адрес; <a href=\"https://foundation.wikimedia.org/wiki/Policy:Privacy_policy\">политика Фонда Викимедиа</a>.</p>"],
       ["Наш сервер (расширенные теги)", "<p>После принятия правил приложение создаёт гостевой профиль: открытая часть ключа устройства (закрытый ключ не покидает телефон), модель телефона и язык, отметки согласия с версией правил, случайный ник, ваши теги, голоса и жалобы с ID картинок, сохранённые настройки — чтобы вернулись после переустановки; и только если привяжете сами — почта или Telegram. Как любой веб-сервер, он хранит технические журналы запросов (время, адрес, IP) для работы и защиты от злоупотреблений.</p>"],
@@ -57,7 +59,7 @@ const T = {
       ["Этот сайт", "<p>Статический, без cookies, аналитики и форм. Хостинг видит IP-адреса посетителей.</p>"],
       ["Вопросы", `<p>Пишите: <a href="mailto:${MAIL}">${MAIL}</a>.</p>`],
     ],
-    updated: "Обновлено: 18 ноября 2026",
+    updated: "Обновлено: 19 ноября 2026",
     back: "← Lynx3D",
   },
   en: {
@@ -74,7 +76,8 @@ const T = {
       ["Your own depth map:", "load a map from ComfyUI or A1111 — big models on a computer are more accurate."],
       ["VR mode", "for Cardboard-type headsets: feeds by gaze, 3D with adjustable depth strength, 360° panoramas, videos, slideshow."],
       ["Civitai:", "image and video feeds, prompts and generation parameters, search for models and authors, optional sign-in with Civitai."],
-      ["Wikimedia Commons:", "featured and quality photos, 360° panoramas — under free licenses, with the author and license on every photo."],
+      ["Wikimedia Commons:", "featured pictures, picture of the day, 360° panoramas, anaglyphs and stereo cards, nature and space, search and categories — under free licenses, with the author and license on every photo."],
+      ["Your own photos:", "the Phone gallery shows your photos and videos in 3D and VR. Everything runs on the phone; files never leave it."],
       ["Save:", "a stereo pair for any VR headset and the depth map — to your phone's gallery."],
       ["No ads, analytics or trackers.", ""],
     ],
@@ -96,6 +99,7 @@ const T = {
     prLead: "No ads, analytics or trackers. You don't need an account to browse.",
     pr: [
       ["Only on your phone", "<p>Settings, the image and depth map cache, your own depth maps, Civitai sign-in tokens (encrypted with a key in Android Keystore). Depth maps are computed on the phone — images are not uploaded anywhere. App data is excluded from Android backups.</p>"],
+      ["Photos and videos on your phone", "<p>The Phone gallery reads photos and videos from the Android media library only with your permission; on Android 14 and newer you can allow just selected photos. Files are not copied or uploaded anywhere: viewing, depth maps and VR all run on the device. A file is opened in another app or shared only when you tap to do so. You can revoke the permission in Android settings.</p>"],
       ["Civitai", "<p>Images and their data load directly from civitai.com. Signing in with Civitai happens on Civitai's own page — your password never passes through the app. After that your reactions, collections and follows are read and changed in your Civitai account under <a href=\"https://civitai.com/content/privacy\">its privacy policy</a>.</p>"],
       ["Wikimedia Commons", "<p>Photos and their details (author, license) load directly from commons.wikimedia.org and upload.wikimedia.org. Wikimedia sees your IP address; see the <a href=\"https://foundation.wikimedia.org/wiki/Policy:Privacy_policy\">Wikimedia Foundation privacy policy</a>.</p>"],
       ["Our server (extended tags)", "<p>After you accept the rules, the app creates a guest profile: the public part of a device key (the private key never leaves the phone), phone model and language, your consents with the rules version, a random nickname, your tags, votes and reports with image IDs, saved settings so they come back after reinstalling; and only if you link them — email or Telegram. Like any web server, it keeps technical request logs (time, address, IP) to run the service and protect it from abuse.</p>"],
@@ -104,7 +108,7 @@ const T = {
       ["This site", "<p>Static, with no cookies, analytics or forms. The host sees visitors' IP addresses.</p>"],
       ["Questions", `<p>Write to <a href="mailto:${MAIL}">${MAIL}</a>.</p>`],
     ],
-    updated: "Updated: November 18, 2026",
+    updated: "Updated: November 19, 2026",
     back: "← Lynx3D",
   },
 };
